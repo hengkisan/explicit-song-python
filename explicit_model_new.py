@@ -3,10 +3,6 @@ import pickle
 import numpy as np
 from PIL import Image
 
-image = Image.open('figure1.jpg')
-
-st.image(image)
-
 st.title('Explicit Song Analyser')
 st.write('This app uses Random Forest to classify whether song lyrics contain explicit contents')
 
